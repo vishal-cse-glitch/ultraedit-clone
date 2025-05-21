@@ -1,0 +1,202 @@
+.logo {
+      width: 40px;
+      height: 23px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 34px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .right ul {
+      display: flex;
+      gap: 34px;
+    }
+
+    .right ul li {
+      list-style: none;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .logo img {
+      width: 134px;
+    }
+
+    .search img {
+      width: 34px;
+      height: 21px;
+      margin-left: auto;
+    }
+
+    .heading-with-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
+
+    .download-text {
+      font-size: 48px;
+      font-weight: 400;
+      color: #222;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+
+    .download-text strong {
+      font-weight: 800;
+    }
+
+    .review-stars {
+      max-height: 50px;
+      height: auto;
+    }
+    .h2-heading h3{
+        text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+   font-size: 20px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #444;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+    }
+  .box {
+  background-color: #37c3c6;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px; /* horizontal padding only */
+  margin: 60px auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f4f5;
+}
+.ue {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ue-download {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: white; /* Optional: match the background from logo area */
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.ue-download img {
+  height: 40px;
+  width: auto;
+}
+
+.ue-text h3 {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #050505;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.ue-text small {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.ue-text a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.ue-text a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 35px;
+  padding: 60px 100px;
+  max-width: 1500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.items {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.items h2 {
+  font-size: 20px;
+  color: #111;
+  margin: 0;
+  font-weight: 700;
+}
+
+.items h4 {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.download {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0ce213;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.download:hover {
+  background-color: #6e876d;
+  cursor: pointer;
+}
+
+.items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
