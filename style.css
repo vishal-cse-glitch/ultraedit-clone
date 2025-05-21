@@ -93,6 +93,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #f2f4f5;
+        cursor: pointer;
 }
 .ue {
   display: flex;
